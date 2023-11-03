@@ -711,3 +711,7 @@ textarea {
   top: 0;
   left: 200px;
 }
+
+.footerText {
+  width: 350px;
+}
