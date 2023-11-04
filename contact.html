@@ -52,7 +52,7 @@
 							<div class="intro-excerpt">
 								<h1>Biz bilan aloqa</h1>
 								<p class="mb-4">Savolingiz bormi? U holda quyidagi bo`limlarni to`ldiring, va bizga yuboring. Sizga tez orada javob beramiz!</p>
-								<p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#" class="btn btn-white-outline">Explore</a></p>
+								<p><a href="" class="btn btn-secondary me-2">Hozir xarid qiling</a><a href="#" class="btn btn-white-outline">Ko'rish</a></p>
 							</div>
 						</div>
 						<div class="col-lg-7">
@@ -69,14 +69,9 @@
 		<!-- Start Contact Form -->
 		<div class="untree_co-section">
       <div class="container">
-
         <div class="block">
           <div class="row justify-content-center">
-
-
             <div class="col-md-8 col-lg-8 pb-4">
-
-
               <div class="row mb-5">
                 <div class="col-lg-4">
                   <div  class="service no-shadow align-items-center link horizontal d-flex active" data-aos="fade-left" data-aos-delay="0">
@@ -118,138 +113,79 @@
                 </div>
               </div>
 
-              <form>
+              <form onsubmit="return sendtelegram()" method="post" role="form">
                 <div class="row">
                   <div class="col-6">
                     <div class="form-group">
-                      <label class="text-black" for="fname">First name</label>
+                      <label class="text-black" for="fname">Ismingiz</label>
                       <input type="text" class="form-control" id="fname">
                     </div>
                   </div>
                   <div class="col-6">
                     <div class="form-group">
-                      <label class="text-black" for="lname">Last name</label>
+                      <label class="text-black" for="lname">Familiyangiz</label>
                       <input type="text" class="form-control" id="lname">
                     </div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <label class="text-black" for="email">Email address</label>
-                  <input type="email" class="form-control" id="email">
+                  <label class="text-black" for="tel">Telefon raqamingiz</label>
+                  <input type="tel"  name="tel" id="tel" pattern="[+]{1}[0-9]{3}[0-9]{2}[0-9]{3}[0-9]{2}[0-9]{2}" required class="form-control">
                 </div>
 
                 <div class="form-group mb-5">
-                  <label class="text-black" for="message">Message</label>
-                  <textarea name="" class="form-control" id="message" cols="30" rows="5"></textarea>
+                  <label class="text-black" for="message">Xabar qoldiring</label>
+                  <textarea name="message" id="message" cols="45" rows="10" class="form-control"></textarea>
                 </div>
 
-                <button type="submit" class="btn btn-primary-hover-outline">Send Message</button>
+                <button type="submit" class="btn btn-primary-hover-outline">Xabarni yuborish</button>
               </form>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
-
-
     </div>
   </div>
 
   <!-- End Contact Form -->
-
-		
 
 		<!-- Start Footer Section -->
 		<footer class="footer-section">
 			<div class="container relative">
 
 				<div class="sofa-img">
-					<img src="images/sofa.png" alt="Image" class="img-fluid">
+					<img src="images/5-removebg-preview.png" alt="Image" class="img-fluid">
 				</div>
 
-				<div class="row">
-					<div class="col-lg-8">
-						<div class="subscription-form">
-							<h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg" alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
-
-							<form action="#" class="row g-3">
-								<div class="col-auto">
-									<input type="text" class="form-control" placeholder="Enter your name">
-								</div>
-								<div class="col-auto">
-									<input type="email" class="form-control" placeholder="Enter your email">
-								</div>
-								<div class="col-auto">
-									<button class="btn btn-primary">
-										<span class="fa fa-paper-plane"></span>
-									</button>
-								</div>
-							</form>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="row g-5 mb-5">
-					<div class="col-lg-4">
+				<div class="row footerContent center">
+					<div class="col-md-6 col-12">
 						<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Luxury Soatlar<span>.</span></a></div>
-						<p class="mb-4 footerText">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+						<p class="mb-4 footerText">Biz sizga zamonaviy interyer dizaynini yaratishda yordam beramiz, yuqori darajadagi nafislik har doim o'zini namoyon qiladi.</p>
 
 						<ul class="list-unstyled custom-social">
+							<li><a href="https://www.instagram.com/luxury_soatlar.uz/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><span class="fa fa-brands fa-instagram"></span></a></li>
+							<li><a href="https://t.me/maxmadjanov9992"><span class="fa fa-brands fa-telegram"></span></a></li>
 							<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-							<li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
 						</ul>
 					</div>
 
-					<div class="col-lg-8">
+					<div class="col-md-6 col-12">
 						<div class="row links-wrap">
 							<div class="col-6 col-sm-6 col-md-3">
 								<ul class="list-unstyled">
-									<li><a href="#">About us</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Blog</a></li>
-									<li><a href="#">Contact us</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Support</a></li>
-									<li><a href="#">Knowledge base</a></li>
-									<li><a href="#">Live chat</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Our team</a></li>
-									<li><a href="#">Leadership</a></li>
-									<li><a href="#">Privacy Policy</a></li>
-								</ul>
-							</div>
-
-							<div class="col-6 col-sm-6 col-md-3">
-								<ul class="list-unstyled">
-									<li><a href="#">Nordic Chair</a></li>
-									<li><a href="#">Kruzo Aero</a></li>
-									<li><a href="#">Ergonomic Chair</a></li>
+									<li><a href="index.html">Bosh sahifa</a></li>
+									<li><a href="services.html">Xizmatlar</a></li>
+									<li><a href="contact.html">Biz bilan bog'lanish</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>
-
 				</div>
 
 				<div class="border-top copyright">
 					<div class="row pt-4">
 						<div class="col-lg-6">
-							<p class="mb-2 text-center text-lg-start">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>  <!-- License information: https://untree.co/license/ -->
+							<p class="mb-2 text-center text-lg-start">Mualliflik huquqi &copy;<script>document.write(new Date().getFullYear());</script>. Barcha huquqlar himoyalangan. <a href="https://github.com/coderbekhub"><b>CoderBek</b></a><span> tomonidan yaratilgan</span>
             </p>
 						</div>
 
@@ -259,10 +195,8 @@
 								<li><a href="#">Privacy Policy</a></li>
 							</ul>
 						</div>
-
 					</div>
 				</div>
-
 			</div>
 		</footer>
 		<!-- End Footer Section -->	
@@ -271,6 +205,7 @@
 		<script src="js/bootstrap.bundle.min.js"></script>
 		<script src="js/tiny-slider.js"></script>
 		<script src="js/custom.js"></script>
+		<script src="js/sendTelegram.js"></script>
 	</body>
 
 </html>
