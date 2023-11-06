@@ -1,12 +1,4 @@
-/*
-* Template Name: UntreeStore
-* Template Author: Untree.co
-* Author URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-
 
 // Create SCSS variables
 $white: #ffffff;
@@ -37,6 +29,14 @@ body {
 	color: $body_color;
 	font-size: 14px;
 	background-color: $lighter;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
 }
 
 a {
@@ -143,7 +143,6 @@ a {
 	}
 	
 	.intro-excerpt {
-		
 		position: relative;
 		z-index: 4;
 		@media (min-width: $lg) {
@@ -161,7 +160,6 @@ a {
 	}
 	p {
 		color: rgba($white, .5);
-		margin-botom: 30px;
 	}
 	.hero-img-wrap {
 		position: relative;
@@ -175,7 +173,6 @@ a {
 			@media (min-width: $md) {
 				right: 0px;
 				left: -100px;
-
 			}
 			@media (min-width: $lg) {
 				left: 0px;
@@ -186,7 +183,6 @@ a {
 			@media (min-width: $xl) {
 				left: 0px;
 				top: -80px;
-		
 				right: -100px;
 			}
 			
@@ -868,9 +864,6 @@ textarea {
 .couponcode-wrap {
 	input {
 		border-radius: 10px!important;
-	}
-	.btn {
-
 	}
 }
 .text-primary {
