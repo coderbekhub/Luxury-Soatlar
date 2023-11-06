@@ -19,7 +19,6 @@ $font-family: "Inter", sans-serif;
 
 body {
 	overflow-x: hidden;
-	position: relative;
 }
 
 body {
@@ -192,7 +191,7 @@ a {
 			position: absolute;
 			width: 255px;
 			height: 217px;
-			background-image: url('../images/dots-light.svg');
+			// background-image: url('../images/dots-light.svg');
 			background-size: contain;
 			background-repeat: no-repeat;
 			right: -100px;
