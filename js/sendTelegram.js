@@ -6,7 +6,8 @@ let ready = function() {
     lname = document.getElementById("lname").value;
     email = document.getElementById("tel").value;
     message = document.getElementById("message").value;
-    message = "Ismi: " + u_name + "Familiyasi:" + lname + "\nTelfon raqami: " +  "\nIzoh: " + message;
+    message = "Ismi: " + u_name + "\nTelfon raqami: " +  "\nIzoh: " + message;
+    // "Familiyasi:" + lname + 
 };
 let sendtelegram = function() {
     ready();

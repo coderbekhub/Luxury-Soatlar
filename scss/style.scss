@@ -143,6 +143,10 @@ a {
 	.intro-excerpt {
 		position: relative;
 		z-index: 4;
+
+		.heroByNow {
+			margin-right: 20px;
+		}
 	}
 	h1 {
 		font-weight: 700;
@@ -635,7 +639,7 @@ textarea {
 	.footer-section {
 		.sofa-img {
 			.img-fluid {
-				width: 280px;
+				width: auto !important;
 				height: auto;
 			}
 		}
@@ -655,7 +659,7 @@ textarea {
 
 		.footerContent {
 			.footerText {
-				width: 280px;
+				width: 280px !important;
 			}
 		}
 	}
@@ -688,3 +692,5 @@ textarea {
 		}
 	}
 }
+
+

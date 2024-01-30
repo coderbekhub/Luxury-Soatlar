@@ -127,6 +127,9 @@ a.more {
   position: relative;
   z-index: 4;
 }
+.hero .intro-excerpt .heroByNow {
+  margin-right: 20px;
+}
 .hero h1 {
   font-weight: 700;
   color: #ffffff;
@@ -576,7 +579,7 @@ textarea {
 
 @media (max-width: 992px) {
   .footer-section .sofa-img .img-fluid {
-    width: 280px;
+    width: auto !important;
     height: auto;
   }
 }
@@ -588,7 +591,7 @@ textarea {
     right: 50%;
   }
   .footer-section .footerContent .footerText {
-    width: 280px;
+    width: 280px !important;
   }
 }
 @media (max-width: 560px) {
