@@ -515,7 +515,7 @@ textarea {
   overflow: auto;
 }
 .site-blocks-table .product-thumbnail {
-  width: 200px;
+  width: auto;
 }
 .site-blocks-table .btn {
   padding: 2px 10px;
