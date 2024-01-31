@@ -488,7 +488,8 @@ textarea {
 .site-blocks-table {
   overflow: auto; }
   .site-blocks-table .product-thumbnail {
-    width: 200px; }
+    width: 200px;
+  }
   .site-blocks-table .btn {
     padding: 2px 10px; }
   .site-blocks-table thead th {

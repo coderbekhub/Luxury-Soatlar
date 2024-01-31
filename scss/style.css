@@ -416,12 +416,12 @@ a.more {
 }
 .footer-section .sofa-img {
   position: absolute;
-  top: -200px;
+  top: -216px;
   z-index: 0 !important;
   right: 0;
 }
 .footer-section .sofa-img img {
-  max-width: 380px;
+  max-width: 280px;
 }
 .footer-section .links-wrap {
   margin-top: 0px;
