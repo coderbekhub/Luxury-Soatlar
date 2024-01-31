@@ -692,3 +692,48 @@ textarea {
 		}
 	}
 }
+
+@media (max-width: 800px) {
+	.footer-section {
+		background: $white;
+		padding-bottom: 0;
+		.sofa-img {
+			position: absolute;
+			top: -216px;
+			z-index: 0 !important;
+			right: 0;
+			img {
+				width: auto;
+				height: auto;
+			}
+		}
+	}
+}
+
+@media (max-width: 580px) {
+	.footer-section {
+		background: $white;
+		padding-bottom: 0;
+		.sofa-img {
+			position: absolute;
+			top: -155px;
+			z-index: 0 !important;
+			// right: -70px;
+			img {
+				width: 150px !important;
+				height: 150px !important;
+			}
+		}
+	}
+}
+
+@media (max-width: 1025px) {
+	.hero {
+		.heroImg {
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+}
